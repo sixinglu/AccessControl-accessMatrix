@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="Access_contr"
+	ProjectGUID="{99AAE183-4FDE-410D-9B8C-C5DB4734E89D}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="Access_contr.dir\Debug"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" -Wall -g"
+				AdditionalIncludeDirectories=""
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				PreprocessorDefinitions="_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\Debug/Access_contr.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories=""
+				PreprocessorDefinitions="_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories=""
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "
+				OutputFile="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\Debug\Access_contr.exe"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories=""
+				ProgramDatabaseFile="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\Debug/Access_contr.pdb"
+				GenerateDebugInformation="TRUE"
+				SubSystem="1"
+				ImportLibrary="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\Debug\Access_contr.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="Access_contr.dir\Release"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" -Wall -g"
+				AdditionalIncludeDirectories=""
+				CompileAs="2"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\Release/Access_contr.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories=""
+				PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories=""
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "
+				OutputFile="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\Release\Access_contr.exe"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories=""
+				ProgramDatabaseFile="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\Release/Access_contr.pdb"
+				SubSystem="1"
+				ImportLibrary="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\Release\Access_contr.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="Access_contr.dir\MinSizeRel"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" -Wall -g"
+				AdditionalIncludeDirectories=""
+				CompileAs="2"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\MinSizeRel/Access_contr.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories=""
+				PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories=""
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /machine:X86"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "
+				OutputFile="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\MinSizeRel\Access_contr.exe"
+				Version="0.0"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories=""
+				ProgramDatabaseFile="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\MinSizeRel/Access_contr.pdb"
+				SubSystem="1"
+				ImportLibrary="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\MinSizeRel\Access_contr.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="Access_contr.dir\RelWithDebInfo"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" -Wall -g"
+				AdditionalIncludeDirectories=""
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\RelWithDebInfo/Access_contr.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories=""
+				PreprocessorDefinitions="NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories=""
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalOptions=" /machine:X86 /debug"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "
+				OutputFile="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\RelWithDebInfo\Access_contr.exe"
+				Version="0.0"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories=""
+				ProgramDatabaseFile="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\RelWithDebInfo/Access_contr.pdb"
+				GenerateDebugInformation="TRUE"
+				SubSystem="1"
+				ImportLibrary="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\RelWithDebInfo\Access_contr.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\src\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/Doctor period/ECE509/Assignment/Assignment1/Access_contr/src/CMakeLists.txt"
+					CommandLine="D:\Cmake\cmake-2.8.11.2-win32-x86\bin\cmake.exe &quot;-HF:/Doctor period/ECE509/Assignment/Assignment1/Access_contr&quot; &quot;-BF:/Doctor period/ECE509/Assignment/Assignment1/Access_contr/build&quot; --check-stamp-file &quot;F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\CMakeFiles\generate.stamp&quot;&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="&quot;F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\src\CMakeLists.txt&quot;;&quot;F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\src\CMakeLists.txt&quot;;"
+					Outputs="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/Doctor period/ECE509/Assignment/Assignment1/Access_contr/src/CMakeLists.txt"
+					CommandLine="D:\Cmake\cmake-2.8.11.2-win32-x86\bin\cmake.exe &quot;-HF:/Doctor period/ECE509/Assignment/Assignment1/Access_contr&quot; &quot;-BF:/Doctor period/ECE509/Assignment/Assignment1/Access_contr/build&quot; --check-stamp-file &quot;F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\CMakeFiles\generate.stamp&quot;&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="&quot;F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\src\CMakeLists.txt&quot;;&quot;F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\src\CMakeLists.txt&quot;;"
+					Outputs="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/Doctor period/ECE509/Assignment/Assignment1/Access_contr/src/CMakeLists.txt"
+					CommandLine="D:\Cmake\cmake-2.8.11.2-win32-x86\bin\cmake.exe &quot;-HF:/Doctor period/ECE509/Assignment/Assignment1/Access_contr&quot; &quot;-BF:/Doctor period/ECE509/Assignment/Assignment1/Access_contr/build&quot; --check-stamp-file &quot;F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\CMakeFiles\generate.stamp&quot;&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="&quot;F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\src\CMakeLists.txt&quot;;&quot;F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\src\CMakeLists.txt&quot;;"
+					Outputs="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/Doctor period/ECE509/Assignment/Assignment1/Access_contr/src/CMakeLists.txt"
+					CommandLine="D:\Cmake\cmake-2.8.11.2-win32-x86\bin\cmake.exe &quot;-HF:/Doctor period/ECE509/Assignment/Assignment1/Access_contr&quot; &quot;-BF:/Doctor period/ECE509/Assignment/Assignment1/Access_contr/build&quot; --check-stamp-file &quot;F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\CMakeFiles\generate.stamp&quot;&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="&quot;F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\src\CMakeLists.txt&quot;;&quot;F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\src\CMakeLists.txt&quot;;"
+					Outputs="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\build\src\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\src\access.cpp">
+			</File>
+			<File
+				RelativePath="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\src\main.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="">
+			<File
+				RelativePath="F:\Doctor period\ECE509\Assignment\Assignment1\Access_contr\src\access.h">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
